@@ -7,6 +7,9 @@
 
   <remote name="gitlab"
            fetch="https://gitlab.com/" />
+
+  <remote name="singularity"
+           fetch="https://github.com/APOPHIS9283" />
  
   <remote name="screwd"
            fetch="https://github.com/ScrewdAOSP" />
@@ -83,6 +86,8 @@
   <project path="system/media" name="system_media" remote="screwd" revision="o8x" />
   <project path="system/nfc" name="system_nfc" remote="screwd" revision="o8x" />
   <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="o8x" />
+
+  <project path="kernel/oneplus/msm8988" name="Singularity" remote="singularity" revision="oc-mr1" />
   
   <project path="vendor/extras" name="vendor_extras" remote="screwd" revision="o8x" />
   <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="o8x" >
